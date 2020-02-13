@@ -16,6 +16,7 @@ html, body{
 	width: 80%;
 	margin: 0 auto;
 	padding: 15px;
+	position: relative;
 }
 
 h1{
@@ -29,4 +30,11 @@ h1{
 }
 .spinny{
 	transform: rotate(180deg);
+}
+
+.smiley{
+	font-size: 25px;
+	position: absolute;
+	top: 25px;
+	right: 30px;
 }
