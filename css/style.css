@@ -22,6 +22,40 @@ h1{
 	border-bottom: 2px solid #000;
 }
 
+blockquote{
+	display: inline-block;
+	font-size: 16px;
+	font-family: Georgia, serif;
+	padding: 0 18px;
+	position: relative;
+}
+
+blockquote::before,
+blockquote::after{
+	font-family: "Times New Roman", serif;
+	font-size: 36px;
+	position: absolute;
+	top: -13px;
+}
+blockquote::before{
+	content: '\201C';
+	right: 100%;
+}
+blockquote::after{
+	content: '\201D';
+	left: 100%;
+}
+
+blockquote cite{
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+	font-style: normal;
+}
+blockquote cite::before{
+	content: '\2014 ';
+}
+
 .copyright span{
 	display: inline-block;
 	transition: .3s all;
