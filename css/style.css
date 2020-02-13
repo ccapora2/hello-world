@@ -21,3 +21,12 @@ html, body{
 h1{
 	border-bottom: 2px solid #000;
 }
+
+.copyright span{
+	display: inline-block;
+	transition: .3s all;
+	cursor: pointer;
+}
+.spinny{
+	transform: rotate(180deg);
+}
